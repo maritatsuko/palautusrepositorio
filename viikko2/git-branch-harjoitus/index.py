@@ -3,7 +3,7 @@
 from logger import logger
 from summa import summa
 from erotus import erotus
-
+#muutos2
 logger("aloitetaan ohjelma")
 
 x = int(input("luku 1: "))
