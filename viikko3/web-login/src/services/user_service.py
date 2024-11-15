@@ -52,7 +52,8 @@ class UserService:
         if password != password_confirmation:
             raise UserInputError("Password and password confirmation do not match")
 
-        # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
+        if self._user_repository.find_by_username(username):
+            raise UserInputError("Username is taken")
 
 
 user_service = UserService()

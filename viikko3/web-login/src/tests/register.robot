@@ -44,8 +44,12 @@ Register With Nonmatching Password And Password Confirmation
     Submit Information
     Register Should Fail With Message  Password and password confirmation do not match
 
-#Register With Username That Is Already In Use
-#
+Register With Username That Is Already In Use
+    Set username  kalle
+    Set Password  123kalle
+    Set Password Confirmation  123kalle
+    Submit Information
+    Register Should Fail With Message  Username is taken
 
 *** Keywords ***
 Reset Application Create User And Go To Register Page
