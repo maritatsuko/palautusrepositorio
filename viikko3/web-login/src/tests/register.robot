@@ -37,8 +37,12 @@ Register With Valid Username And Invalid Password
     Submit Information
     Register Should Fail With Message  Password should also contain characters other than letters
 
-#Register With Nonmatching Password And Password Confirmation
-# ...
+Register With Nonmatching Password And Password Confirmation
+    Set Username  mari
+    Set Password  mari1234
+    Set Password Confirmation  mari4567
+    Submit Information
+    Register Should Fail With Message  Password and password confirmation do not match
 
 #Register With Username That Is Already In Use
 #

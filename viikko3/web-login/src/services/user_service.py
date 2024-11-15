@@ -48,6 +48,9 @@ class UserService:
         
         if password.isalpha() is True:
             raise UserInputError("Password should also contain characters other than letters")
+        
+        if password != password_confirmation:
+            raise UserInputError("Password and password confirmation do not match")
 
         # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
 
