@@ -15,8 +15,12 @@ Register With Valid Username And Password
     Submit Information
     Register Should Succeed
     
-#Register With Too Short Username And Valid Password
-# ...
+Register With Too Short Username And Valid Password
+    Set Username  ma
+    Set Password  mari1234
+    Set Password Confirmation  mari1234
+    Submit Information
+    Register Should Fail With Message  Username should be 3 or more characters
 
 #Register With Valid Username And Too Short Password
 # ...
@@ -54,3 +58,8 @@ Submit Information
 
 Register Should Succeed
     Welcome Page Should Be Open
+
+Register Should Fail With Message
+    [Arguments]  ${message}
+    Register Page Should Be Open
+    Page Should Contain  ${message}
