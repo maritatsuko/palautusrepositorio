@@ -45,6 +45,9 @@ class UserService:
         
         if len(password) < 8:
             raise UserInputError("Password should be 8 or more characters")
+        
+        if password.isalpha() is True:
+            raise UserInputError("Password should also contain characters other than letters")
 
         # toteuta loput tarkastukset tänne ja nosta virhe virhetilanteissa
 

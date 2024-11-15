@@ -29,9 +29,13 @@ Register With Valid Username And Too Short Password
     Submit Information
     Register Should Fail With Message  Password should be 8 or more characters
 
-#Register With Valid Username And Invalid Password
+Register With Valid Username And Invalid Password
 # salasana ei sisällä halutunlaisia merkkejä
-# ...
+    Set Username  mari
+    Set Password  qqqqqqqq
+    Set Password Confirmation  qqqqqqqq
+    Submit Information
+    Register Should Fail With Message  Password should also contain characters other than letters
 
 #Register With Nonmatching Password And Password Confirmation
 # ...
