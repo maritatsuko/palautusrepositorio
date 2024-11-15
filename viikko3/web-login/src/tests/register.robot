@@ -47,7 +47,7 @@ Set Password
 
 Set Password Confirmation
     [Arguments]  ${password_confirmation}
-    Input Password confirmation  password_confirmation  ${password_confirmation}
+    Input Password  password_confirmation  ${password_confirmation}
 
 Submit Information
     Click Button  Register
