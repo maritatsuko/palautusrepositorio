@@ -1,4 +1,4 @@
-Tutustu retrospektiivitekniikoihin start, stop, continue, more of, less of wheel ja glad, sad mad. Tee aiheesta noin 125 sanan tiivistelmä.
+Tutustu retrospektiivitekniikoihin start, stop, continue, more of, less of wheel ja glad, sad mad.
 
 "Start, Stop, Continue, More of, Less of Wheel" on retrospektiivitekniikka, jossa käydään läpi ajatuksia 5-kategorisen pyörän avulla. Tähän tekniikkaan kuluu noin 10-15 minuuttia kokonaisuudessaan. Ensin piirretään ympyrä, joka jaetaan viiteen osaan ja osat nimetään järjestyksessä "Start, Stop, Continue, More of, Less of". Kysytään sitten kysymykset "Mitä uutta voisimme aloittaa tekemään?", "Mitä meidän kannattaisi lopettaa, jotain mikä ei tuota tulosta tai on esteenä työn edistymiseen?", "Mikä toimii ja mitä halutaan jatkaa?", "Mitä pitäisi tehdä lisää? Tai vähemmän?". Kannustetaan tiimiltä kommentteja mihin vain kategoriaan liittyen ja kirjataan kommentti (tai sen tiivistelmä) sopivaan lohkoon. 
 
