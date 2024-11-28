@@ -51,6 +51,9 @@ Register With Username That Is Already In Use
     Submit Information
     Register Should Fail With Message  Username is taken
 
+#Login After Successful Registration
+    
+
 *** Keywords ***
 Reset Application Create User And Go To Register Page
     Reset Application
