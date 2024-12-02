@@ -19,9 +19,8 @@ class IntJoukko:
         self.alkioiden_lkm = 0
 
     def kuuluu(self, n):
-        for i in self.ljono:
-            if n == i:
-                return True
+        if n in self.ljono:
+            return True
         return False
 
     def lisaa(self, lisattava):
