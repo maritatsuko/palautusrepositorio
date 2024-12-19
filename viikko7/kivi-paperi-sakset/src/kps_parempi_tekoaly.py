@@ -1,8 +1,9 @@
 from tuomari import Tuomari
 from tekoaly_parannettu import TekoalyParannettu
+from kps_koko_peli import KiviPaperiSakset
 
 
-class KPSParempiTekoaly:
+class KPSParempiTekoaly(KiviPaperiSakset):
     def pelaa(self):
         tuomari = Tuomari()
         tekoaly = TekoalyParannettu(10)
